@@ -210,7 +210,7 @@ export const NOTIFY = createVocabulary('http://www.w3.org/ns/solid/notifications
   'topic',
   'webhookAuth',
 
-  'WebHookChannel2023',
+  'WebhookChannel2023',
   'WebSocketChannel2023',
 );
 
@@ -261,8 +261,12 @@ export const SOLID_HTTP = createVocabulary('urn:npm:solid:community-server:http:
   'accountCookie',
   // When the above cookie expires, expects an ISO date string
   'accountCookieExpiration',
+  // Unit, start, and end are used for range headers
+  'end',
   'location',
+  'start',
   'slug',
+  'unit',
 );
 
 export const SOLID_META = createVocabulary('urn:npm:solid:community-server:meta:',
